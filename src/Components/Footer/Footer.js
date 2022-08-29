@@ -51,18 +51,25 @@ const Footer = () => {
             ad minim veniam"
           </p>
           <div className="social">
-            <FaFacebook
-              size={30}
-              style={{ color: "#ffffff", marginRight: "1rem" }}
-            />
-            <FaTwitter
-              size={30}
-              style={{ color: "#ffffff", marginRight: "1rem" }}
-            />
-            <FaLinkedin
-              size={30}
-              style={{ color: "#ffffff", marginRight: "1rem" }}
-            />
+            <a href="https://www.facebook.com">
+              <FaFacebook
+                size={30}
+                style={{ color: "#ffffff", marginRight: "1rem" }}
+              />
+            </a>
+            <a href="https://www.twitter.com">
+              <FaTwitter
+                size={30}
+                style={{ color: "#ffffff", marginRight: "1rem" }}
+              />
+            </a>
+
+            <a href="https://www.linkedin.com">
+              <FaLinkedin
+                size={30}
+                style={{ color: "#ffffff", marginRight: "1rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>

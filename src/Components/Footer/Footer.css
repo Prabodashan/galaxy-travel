@@ -60,7 +60,15 @@
     grid-template-columns: 1fr;
   }
 
+  .footer .right h4 {
+    align-items: center;
+  }
+
   .right .social {
     margin: auto;
+  }
+
+  .footer .right p {
+    text-align: center;
   }
 }
